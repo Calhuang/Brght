@@ -6,7 +6,7 @@ Hello, this is a macOS toolbar application for automating display brightness bas
 
 ## Getting Started
 
-You can either build the project yourself or download the app here.
+You can either build the project yourself or download the app under releases.
 
 <img src="Images/Image1.png">
 
