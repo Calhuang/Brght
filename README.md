@@ -10,8 +10,10 @@ You can either build the project yourself or download the app under releases.
 
 <img src="Images/Image1.png">
 
-The battery icon is the brightness at which you want the screen to be when not plugged in.
-The cord icon is the brightness at which you want the screen to be when plugged in.
+The battery icon is the brightness at which you want the screen to be when not plugged in.  
+
+The cord icon is the brightness at which you want the screen to be when plugged in.  
+
 Use decimal values from 0.0 - 1.0
 
 ## Built With
