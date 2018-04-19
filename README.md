@@ -8,6 +8,7 @@ Hello, this is a macOS toolbar application for automating display brightness bas
 
 You can either build the project yourself or download the app here.
 
+![alt text](https://github.com/Calhuang/Brght/tree/master/Images/Image1.png "Screenshot")
 
 ## Built With
 
