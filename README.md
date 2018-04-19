@@ -28,3 +28,9 @@ This project is licensed under the Apache License - see the [LICENSE.md](LICENSE
 ## Acknowledgments
 
 * Thanks to PurpleBooth for the markdown template!
+
+## Donations
+
+Thank you for your support!
+
+Bitcoin: 19oimzaeMPZcQ18FvVgoUu5fcHBWrnrKRH
