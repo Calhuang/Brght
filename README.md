@@ -2,7 +2,7 @@
 
 <img src="Images/AppIcon.png" width="256">
 
-Hello, this is a macOS toolbar application for automating display brightness based on if a power source is detected.
+Hello, this is a macOS toolbar application for automating display brightness based on if the computer is plugged in or not.
 
 ## Getting Started
 
