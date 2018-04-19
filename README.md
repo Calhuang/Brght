@@ -1,6 +1,6 @@
 # Brght
 
-![alt text](https://github.com/Calhuang/Brght/tree/master/Images/AppIcon.png "Logo")
+![alt text](https://github.com/Calhuang/Brght/tree/master/Images/AppIcon.png?raw=true "Logo")
 
 Hello, this is a macOS toolbar application for automating display brightness based on if a power source is detected.
 
