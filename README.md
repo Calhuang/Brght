@@ -1,6 +1,6 @@
 # Brght
 
-<img src="Images/AppIcon.png" width="512">
+<img src="Images/AppIcon.png" width="256">
 
 Hello, this is a macOS toolbar application for automating display brightness based on if a power source is detected.
 
@@ -8,7 +8,11 @@ Hello, this is a macOS toolbar application for automating display brightness bas
 
 You can either build the project yourself or download the app here.
 
-![alt text](https://github.com/Calhuang/Brght/tree/master/Images/Image1.png "Screenshot")
+<img src="Images/Image1.png">
+
+The battery icon is the brightness at which you want the screen to be when not plugged in.
+The cord icon is the brightness at which you want the screen to be when plugged in.
+Use decimal values from 0.0 - 1.0
 
 ## Built With
 
