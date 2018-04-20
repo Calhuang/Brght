@@ -12,7 +12,9 @@ You can either build the project yourself or download the app under releases.
 
 The battery icon is the brightness at which you want the screen to be when not plugged in.  
 
-The cord icon is the brightness at which you want the screen to be when plugged in.  
+The cord icon is the brightness at which you want the screen to be when plugged in.
+
+Make sure to disable "auto-brightness" and "dim screen when on battery power" as those conflict with the program.
 
 Use decimal values from 0.0 - 1.0
 
