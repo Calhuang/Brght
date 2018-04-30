@@ -10,9 +10,7 @@
 import Cocoa
 
 struct KeepTrack {
-    static var notPluggedInRepeat = false
-    static var pluggedInRepeat = false
-    static var brightnessWhenPluggedIn = 0.7
+    static var brightnessWhenPluggedIn = 0.6
     static var brightnessWhenNotPluggedIn = 0.45
 }
 
@@ -29,26 +27,13 @@ func PowerSourceChanged(context: UnsafeMutableRawPointer?) {
     
     if (!(IOPSCopyExternalPowerAdapterDetails() != nil)) {
         print("not plugged in")
-        //setBrightness(level: 0.2)
-        print(KeepTrack.notPluggedInRepeat)
-        KeepTrack.pluggedInRepeat = false
-        if (KeepTrack.notPluggedInRepeat == false) {
-            print("SET BRIGHTNESS 45")
-            setBrightness(level: Float(KeepTrack.brightnessWhenNotPluggedIn))
-            KeepTrack.notPluggedInRepeat = true
-        }
+        
+        setBrightness(level: Float(KeepTrack.brightnessWhenNotPluggedIn))
     }
     else {
         print("plugged in")
-        //setBrightness(level: 0.7)
-        print(KeepTrack.pluggedInRepeat)
-        KeepTrack.notPluggedInRepeat = false
-        if (KeepTrack.pluggedInRepeat == false) {
-            print("SET BRIGHTNESS 70")
-            setBrightness(level: Float(KeepTrack.brightnessWhenPluggedIn))
-            KeepTrack.pluggedInRepeat = true
-
-        }
+        
+        setBrightness(level: Float(KeepTrack.brightnessWhenPluggedIn))
     }
 
 }
@@ -62,7 +47,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let popover = NSPopover()
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
         if let button = statusItem.button {
             button.image = NSImage(named:NSImage.Name("StatusBarButtonImage"))
             button.action = #selector(togglePopover(_:))
